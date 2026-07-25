@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Holzarbeiten — Leistungen</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          Holzarbeiten <span style="color:var(--brand2);">Max Mustermann</span>
+        </div>
+      </div>
+      <nav class="nav-links" aria-label="Navigation">
+        <a href="index.html">Start</a>
+        <a href="leistungen.html">Leistungen</a>
+        <a href="referenzen.html">Referenzen</a>
+        <a href="kontakt.html">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section" style="padding-top:28px">
+      <h2>Leistungen</h2>
+      <div class="grid-3" style="margin-top:12px">
+        <div class="card">
+          <h3>Möbel nach Maß</h3>
+          <p>Vom Entwurf bis zur Montage — passend zu deinem Raum.</p>
+        </div>
+        <div class="card">
+          <h3>Sideboards & Regale</h3>
+          <p>Stauraumlösungen mit sauberem Design und guter Verarbeitung.</p>
+        </div>
+        <div class="card">
+          <h3>Reparaturen</h3>
+          <p>Lose Verbindungen, Beschädigungen, Austausch von Teilen.</p>
+        </div>
+        <div class="card">
+          <h3>Restaurierung</h3>
+          <p>Schonendes Aufarbeiten, moderne oder originale Optik.</p>
+        </div>
+        <div class="card">
+          <h3>Innenausbau</h3>
+          <p>Holzverkleidungen, Einbauten und individuelle Details.</p>
+        </div>
+        <div class="card">
+          <h3>Beratung & Angebot</h3>
+          <p>Gerne mit Fotos/Ideen — wir besprechen Material und Ablauf.</p>
+          <a class="more" href="kontakt.html">Anfragen →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Holzarbeiten Max Mustermann</div>
+      <div class="small-links">
+        <a href="kontakt.html">Kontakt</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
